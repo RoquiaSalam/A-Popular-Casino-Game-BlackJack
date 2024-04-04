@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(90, 65, 112);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.title{
+    text-align: center;
+    color: rgb(246, 246, 243);
+    font-family: 'Ubuntu', sans-serif; 
+    padding: .5rem;
+    font-size: 3rem;
+    word-spacing: 1rem;
+    letter-spacing: 0.01rem;
+}
+
+
+
+.main{
+    margin: auto;
+    text-align: center;
+}
+
+.row1 h2{
+    font-family: 'Lobster', serif;
+    font-size: 1.5rem;
+    color: rgb(219, 231, 184);
+}
+
+
+#Current-Card img{
+    height: 13rem;
+    width: 8rem;
+    padding: 1rem;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.row3 h2{
+    font-family: 'Lobster', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline-block;
+    margin: 0px auto;
+    width: 100%;
+    color: blanchedalmond;
+}
+
+.ro1 {
+  display: table;
+  float: left;
+  width:600px;
+  height: 370px;
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+  color: antiquewhite;
+}
+.ro2 {
+    display: table;
+    float: right;
+    width:600px;
+    height: 370px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: top;
+    color: antiquewhite;
+  }
+
+#your-box img,#computer-box img{
+    height: 13rem;
+    width: 8rem;
+    padding: 1rem;
+} 
+
+
+.row4 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: 800;
+    font-size: 2rem;
+    word-spacing: 1rem;
+    animation: blinker 2s step-start infinite;
+    text-align: left;
+    padding: 50px 50px;
+}

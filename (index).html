@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./blackJ.css">
+    <title>Black Jack</title>
+</head>
+<body>
+    <h1 class="title">Popular Black Jack Game</h1>
+    <div class="main">
+        <div class ="row1">
+            <div id = "Current-Card">
+                <h2>Current Card: <span id ="currentcard"></span></h2>
+                <img src="black_joker.png" id="imgCurrent">
+            </div>
+        </div><br><br>
+        <div class="row2">
+            <div class="buttons">
+                <button class="btn-lg btn-primary" id="deal"> Deal Card </button> 
+                <button class="btn-lg btn-primary" id="stop">Stop</button>
+                <button class="btn-lg btn-primary" id="new">New Game</button>
+            </div>
+        </div><br><br>
+        <div class="row3">
+            <div class = "ro1" id="your-box">
+                <h2>You: <span id="yourscore">0</span></h2>
+            </div>
+            <div class ="ro2" id="computer-box">
+                <h2>Computer: <span id="computerscore">0</span></h2>
+            </div>
+        </div>
+        <div>
+        </div class ="row4">     
+            <div id ="finalResult">
+                <h2><span id="results"></span></h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="./blackJ.js"></script>
+</body>
+</html>
